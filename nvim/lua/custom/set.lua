@@ -39,3 +39,6 @@ vim.opt.wrap = false
 
 -- Set completeopt to have a better completion experience
 vim.o.completeopt = 'menuone,noselect'
+
+vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
